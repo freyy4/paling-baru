@@ -1,0 +1,62 @@
+body {
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: black;
+    border-radius: 20px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-item, nav-link {
+    color:black;
+}
+
+.small-navbar {
+    padding: 5px 5px;
+    font-size: 10px;
+}
+
+.custom-card-body {
+    border: none;
+    padding: 0;
+}
+
+@media (max-width: 500px) {
+    .navbar-toggler {
+        border: none;
+    }
+
+    .navbar-toggler-icon {
+        display: none;
+    }
+
+    .navbar-brand {
+        font-size: 18px;
+    }
+
+    .navbar-nav {
+        margin-top: 10px;
+    }
+
+    .custom-container {
+        max-width: 100%;
+    }
+
+    .card{
+        border-radius: none;
+    }
+}
+
+.card {
+    border-radius: 20px;
+}
